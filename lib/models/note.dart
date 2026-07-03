@@ -1,4 +1,3 @@
-// lib/models/note.dart
 class Note {
   final String id;
   final String userId;
@@ -16,7 +15,6 @@ class Note {
     required this.updatedAt,
   });
 
-  // Convert a Note object into a Map for Firestore
   Map<String, dynamic> toMap() {
     return {
       'userId': userId,
@@ -27,7 +25,6 @@ class Note {
     };
   }
 
-  // Create a Note object from a Firestore document
   factory Note.fromMap(String id, Map<String, dynamic> map) {
     return Note(
       id: id,
@@ -43,7 +40,6 @@ class Note {
     );
   }
 
-  // Copy with new values
   Note copyWith({
     String? id,
     String? userId,

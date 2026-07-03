@@ -1,4 +1,3 @@
-// lib/widgets/note_card.dart
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:notes_management_app/models/note.dart';

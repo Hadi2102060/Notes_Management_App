@@ -15,7 +15,6 @@ class NoteService {
     }
   }
 
-  // Create a new note
   Future<void> createNote(String title, String description) async {
     _ensureAuthenticated();
     try {
@@ -32,7 +31,6 @@ class NoteService {
     }
   }
 
-  // Get all notes (stream for real-time updates)
   Stream<List<Note>> getNotes() {
     _ensureAuthenticated();
     return _notesCollection.where('userId', isEqualTo: _userId).snapshots().map(
@@ -46,7 +44,6 @@ class NoteService {
     );
   }
 
-  // Update an existing note
   Future<void> updateNote(String id, String title, String description) async {
     _ensureAuthenticated();
     try {
@@ -60,7 +57,6 @@ class NoteService {
     }
   }
 
-  // Delete a note
   Future<void> deleteNote(String id) async {
     _ensureAuthenticated();
     try {
@@ -70,7 +66,6 @@ class NoteService {
     }
   }
 
-  // Get a single note by ID (for editing)
   Future<Note?> getNoteById(String id) async {
     _ensureAuthenticated();
     try {

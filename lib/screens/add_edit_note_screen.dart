@@ -1,4 +1,3 @@
-// lib/screens/add_edit_note_screen.dart
 import 'package:flutter/material.dart';
 import 'package:notes_management_app/services/note_service.dart';
 

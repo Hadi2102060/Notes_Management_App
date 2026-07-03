@@ -1,4 +1,3 @@
-// lib/widgets/empty_state.dart (optional but nice)
 import 'package:flutter/material.dart';
 
 class EmptyStateWidget extends StatelessWidget {

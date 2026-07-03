@@ -193,7 +193,6 @@ class _NotesListScreenState extends State<NotesListScreen> {
   }
 
   void _showInfoDialog() {
-    // Compact premium dialog with an option to open fullscreen
     showDialog(
       context: context,
       builder: (context) => Dialog(
