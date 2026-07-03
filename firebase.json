@@ -1,0 +1,29 @@
+{
+    "flutter": {
+        "platforms": {
+            "android": {
+                "default": {
+                    "projectId": "notemanagement-2e014",
+                    "appId": "1:1012202195385:android:2bd326b0b6093ee5ed4e68",
+                    "fileOutput": "android/app/google-services.json"
+                }
+            },
+            "dart": {
+                "lib/firebase_options.dart": {
+                    "projectId": "notemanagement-2e014",
+                    "configurations": {
+                        "android": "1:1012202195385:android:2bd326b0b6093ee5ed4e68",
+                        "ios": "1:1012202195385:ios:a64953df3e2519eaed4e68",
+                        "macos": "1:1012202195385:ios:a64953df3e2519eaed4e68",
+                        "web": "1:1012202195385:web:a9fe36ee8dc43f0fed4e68",
+                        "windows": "1:1012202195385:web:1fe8d1f1c4850ee3ed4e68"
+                    }
+                }
+            }
+        }
+    },
+    "firestore": {
+        "rules": "firestore.rules",
+        "indexes": "firestore.indexes.json"
+    }
+}

@@ -1,0 +1,19 @@
+# Flutter
+.dart_tool/
+.packages/
+pubspec.lock
+build/
+
+# Firebase (IMPORTANT - don't share your API keys!)
+lib/firebase_options.dart
+google-services.json
+GoogleService-Info.plist
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
